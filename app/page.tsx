@@ -1,5 +1,9 @@
+import NavBarComponent from "./components/navbar.component";
+
 export default function Home() {
     return (
-        <main><h1>My portfolio.</h1></main>
+        <div className="h-screen bg-gradient-to-b from-secondary-light-blue to-primary-blue">
+            <NavBarComponent></NavBarComponent>
+        </div>
     );
 }
